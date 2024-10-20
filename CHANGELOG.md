@@ -10,6 +10,7 @@ You can also check [on GitHub](https://github.com/nextcloud/news/releases), the 
 
 ### Fixed
 - 25.0.0-alpha2: Feed folderbar menu always opens collapsed (#2508)
+- fix: hide folder/feeds with no unread items when showAll is disabled (#2503)
 
 
 # Releases
