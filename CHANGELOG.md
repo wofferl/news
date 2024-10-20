@@ -9,6 +9,7 @@ You can also check [on GitHub](https://github.com/nextcloud/news/releases), the 
 ### Changed
 
 ### Fixed
+- 25.0.0-alpha2: Feed folderbar menu always opens collapsed (#2508)
 
 
 # Releases
