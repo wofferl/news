@@ -10,8 +10,8 @@ export const APPLICATION_ACTION_TYPES = {
 export type AppInfoState = {
 	error?: Error
 	loading: boolean
-	lastOpmlImportMessage: { string, string }
-	lastArticlesImportMessage: { string, string }
+	lastOpmlImportMessage?: { type: string, message: string }
+	lastArticlesImportMessage?: { type: string, message: string }
 	displaymode: string
 	splitmode: string
 	oldestFirst: boolean
