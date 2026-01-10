@@ -16,6 +16,7 @@ You can also check [on GitHub](https://github.com/nextcloud/news/releases), the 
 - Wrong url to feed page
 - Long articles are cut short
 - TypeScript type definition error in app.ts (incorrect object type syntax)
+- Vue template tag case mismatch in AppSettingsDialog.vue (NcHotkey closing tags)
 
 # Releases
 ## [28.0.0-beta.1] - 2025-11-13

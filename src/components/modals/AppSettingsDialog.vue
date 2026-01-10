@@ -133,7 +133,7 @@
 							<NcKbd symbol="ArrowLeft" />
 						</div>
 					</template>
-				</NcHotKey>
+				</NcHotkey>
 				<NcHotkey :label="t('news', 'Jump to next article')">
 					<template #hotkey>
 						<div>
@@ -144,7 +144,7 @@
 							<NcKbd symbol="ArrowRight" />
 						</div>
 					</template>
-				</NcHotKey>
+				</NcHotkey>
 				<NcHotkey :label="t('news', 'Open article in new tab')" hotkey="O" />
 				<NcHotkey :label="t('news', 'Show article details in compact view')">
 					<template #hotkey>
@@ -154,7 +154,7 @@
 							<NcKbd symbol="Enter" />
 						</div>
 					</template>
-				</NcHotKey>
+				</NcHotkey>
 				<NcHotkey :label="t('news', 'Close article details in compact view')" hotkey="Escape" />
 				<NcHotkey :label="t('news', 'Toggle star article')">
 					<template #hotkey>
@@ -164,7 +164,7 @@
 							<NcKbd symbol="L" />
 						</div>
 					</template>
-				</NcHotKey>
+				</NcHotkey>
 				<NcHotkey :label="t('news', 'Toggle keep current article unread')" hotkey="U" />
 			</NcHotkeyList>
 			<NcHotkeyList :label="t('news', 'Feed/Folder navigation and control')">
